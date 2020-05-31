@@ -1,0 +1,7 @@
+.title-image {
+  background-color: #c6d4e2;
+  background-image: url("images/flower.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+}
