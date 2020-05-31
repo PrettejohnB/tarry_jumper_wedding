@@ -1,7 +1,103 @@
-.title-image {
+.banner-text {
+  font-family: "Tangerine", cursive !important;
+  text-transform: none;
+  font-size: 95px;
+  color: white;
+  letter-spacing: normal;
+  font-weight: 700;
+  margin-top: 90px;
+}
+
+.font-alt {
+  font-family: "Patrick Hand", cursive;
+}
+
+.team-item-name {
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.team-item-role {
+  letter-spacing: 0.2em;
+}
+.marginbottom {
+  margin-bottom: 50px;
+}
+
+.section-title {
+  font-size: 35px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  color: #3c657a;
+}
+
+.bridal-party {
+  background-color: #a9bed4;
+  color: white;
+  font-family: "Patrick Hand", cursive;
+  letter-spacing: 0.2em;
+  padding: 20px 0;
+}
+
+.bg-lighter-blue {
   background-color: #c6d4e2;
-  background-image: url("images/flower.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center top;
+}
+
+.registry {
+  color: white;
+}
+
+.ci-icon::before {
+  background: #3c657a;
+}
+
+.btn-mod {
+  background: #3c657a;
+}
+
+.btn-mod:hover {
+  background-color: #c6d4e2;
+  color: #3c657a;
+}
+
+.tpl-alt-tabs > li > a {
+  color: #c6d4e2;
+}
+
+.tpl-alt-tabs li.active a {
+  color: #3c657a;
+}
+
+.tpl-alt-tabs > li > a:hover {
+  color: #3c657a;
+}
+
+.map-section {
+  background: rgba(60, 101, 122, 0.93);
+}
+.map-section:hover {
+  background: rgba(60, 101, 122, 0.9);
+}
+
+.map-section.js-active {
+  background: rgba(60, 101, 122, 0.93);
+}
+
+.map-section.js-active:hover {
+  background: rgba(60, 101, 122, 0.9);
+}
+
+.inner-nav ul li a {
+  color: white;
+}
+
+.inner-nav ul li a:hover,
+.inner-nav ul li a.active {
+  color: #3c657a;
+}
+
+.main-nav {
+  background: #c6d4e2;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
