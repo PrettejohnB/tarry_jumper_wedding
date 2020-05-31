@@ -101,3 +101,33 @@
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+
+.mobile-nav {
+  color: white;
+  border: none;
+}
+
+.mobile-nav:hover,
+.mobile-nav.active {
+  background: #c6d4e2;
+  color: #3c657a;
+}
+
+.mobile-on .desktop-nav ul {
+  background: white;
+  color: #3c657a;
+}
+
+.mobile-on .desktop-nav ul li a {
+  color: #a9bed4;
+}
+
+.mobile-on .desktop-nav ul li a.active {
+  color: #3c657a;
+}
+
+@media only screen and (max-width: 700px) {
+  .banner-text {
+    font-size: 60px;
+  }
+}
