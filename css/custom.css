@@ -1,10 +1,10 @@
 .banner-text {
-  font-family: "Tangerine", cursive !important;
+  font-family: "Pinyon Script", cursive !important;
   text-transform: none;
   font-size: 95px;
   color: white;
   letter-spacing: normal;
-  font-weight: 700;
+  font-weight: 500;
   margin-top: 90px;
 }
 
@@ -144,4 +144,14 @@
 }
 
 a.link-to-top {
-    color: #a9bed4
+  color: #a9bed4;
+}
+
+.form textarea {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #777;
+  border-color: rgba(0, 0, 0, 0.1);
+  outline: none;
+}
